@@ -1,4 +1,4 @@
-
+require 'pp'
 
 def nyc_pigeon_organizer(data)
   pigeon_list = {}
@@ -16,7 +16,7 @@ def nyc_pigeon_organizer(data)
       end
     end
   end
-  pigeon_list
+  pp pigeon_list
 end
 
 
