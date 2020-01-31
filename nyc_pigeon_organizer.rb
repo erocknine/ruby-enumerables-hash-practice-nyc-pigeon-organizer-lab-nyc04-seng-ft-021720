@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
 
   data.each do |key, value|
     value.each do |v, names|
-      names.each do
+      names.each do |names|
         if !pigeon_list[names]
           pigeon_list[names] = {}
         end
