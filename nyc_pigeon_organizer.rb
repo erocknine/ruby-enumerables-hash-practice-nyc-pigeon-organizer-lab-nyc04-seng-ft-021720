@@ -45,18 +45,7 @@ def nyc_pigeon_organizer(data)
   h = {}
   data.each do |k, v|
     v.each do |x, y|
-      h[y] = x.to_s
-    end
-  end
-  
-  n = h.inject({}) do |memo, (name), attribute|
-    (memo[name] ||= {})[attribute.to_s]
-    memo
-  end
-  
-   n
-  pp h
-  pigeon_list
+    
 end
 
 
